@@ -27,7 +27,8 @@ img {
 @media (min-width: 800px) {
   .nav {
     display: flex;
-    background-color: var(--clr-primary2);
+    /* background-color: var(--clr-primary2); */
+    justify-content: center;
   }
 }
 
@@ -40,12 +41,11 @@ nav.shown .menu_logo {
   display: none;
 }
 
-.banner {
+/* .banner {
   position: sticky;
   top: 0;
   z-index: +1;
-  box-shadow: 0 2px 2px 0;
-}
+} */
 
 .banner a {
   text-decoration: none;
